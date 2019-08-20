@@ -165,29 +165,33 @@
 // console.log(ClarkKent.power + ClarkKent.villian);
 
 
-var doSomething = function(work){
-    console.log(work);
-    console.log(this);
+// var doSomething = function(work){
+//     console.log(work);
+//     console.log(this);
 
+// }
+
+// doSomething("pushups");
+
+// var exercise = {benchpress : "4 sets" , squats : "2 sets"};
+// doSomething.call(exercise,exercise.squats);
+// doSomething.call(exercise,['crunches']);
+
+
+// var multiplier = function(){
+//     var result = 1;
+//     for(let i = arguments.length-1; i>=0; i--){
+//         result *= arguments[i];
+//     }
+//     return result
+// }
+// console.log(multiplier(2,5,8,6));
+
+()=>{
+    console.log("hello");
 }
 
-doSomething("pushups");
-
-var exercise = {benchpress : "4 sets" , squats : "2 sets"};
-doSomething.call(exercise,exercise.squats);
-
-
-var multiplier = function(){
-    var result = 1;
-    for(let i = arguments.length-1; i>=0; i--){
-        result *= arguments[i];
-    }
-    return result
-}
-console.log(multiplier(2,5,8,6));
-
-
-
+ 
 
 
 
